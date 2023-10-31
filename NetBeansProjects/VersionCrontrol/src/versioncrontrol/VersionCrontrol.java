@@ -10,15 +10,15 @@ package versioncrontrol;
  */
 public class VersionCrontrol {
 
-    public static String frase(){
-       String saludo = "Hola Mundo!";
-       return saludo;
+    public static String frase() {
+        String saludo = "Hola Mundo!";
+        return saludo;
     }
+
     public static void main(String[] args) {
-        
-        
+
         System.out.println(frase());
         // System.out.println("Hello World!"); (Master Branch Code)
     }
-    
+
 }
