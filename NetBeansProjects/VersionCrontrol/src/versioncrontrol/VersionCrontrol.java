@@ -10,13 +10,14 @@ package versioncrontrol;
  */
 public class VersionCrontrol {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static String frase(){
+       String saludo = "Hola Mundo!";
+       return saludo;
+    }
     public static void main(String[] args) {
         
-        String saludo = "Hola Mundo!";
-        System.out.println(saludo);
+        
+        System.out.println(frase());
         // System.out.println("Hello World!");
     }
     
